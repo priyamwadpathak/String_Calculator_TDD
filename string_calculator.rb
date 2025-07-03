@@ -12,9 +12,7 @@ class StringCalculator
 		end
 
 		nums = numbers.split(/#{delimiter}/).map(&:to_i)
-
 		check_for_negative!(nums)
-
 		nums.sum
 	end
 
